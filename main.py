@@ -22,7 +22,17 @@ def generate_wordlist(names, domain=None):
             f"{first_initial}.{last_initial}",
             f"{last}.{first}",
             f"{first}-{last}",
-            f"{last}.{first_initial}"
+            f"{last}.{first_initial}",
+            f"{first}{last}",
+            f"{last}{first}",
+            f"{first}{last_initial}{last}",
+            f"{first_initial}{last_initial}{last}",
+            f"{last}{first_initial}",
+            f"{last}_{first}",
+            f"{first}-{last_initial}",
+            f"{last}-{first_initial}",
+            f"{first[0:3]}{last}",
+            f"{first}{last[0:3]}"
         ]
 
         if domain:
